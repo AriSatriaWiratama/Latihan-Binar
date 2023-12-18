@@ -13,10 +13,14 @@ public class loopingSederhana {
 
         hasilTotal= 0;
 
-        while (awalUser <= akhirUser){
-            hasilTotal = hasilTotal+awalUser;
+//        while (awalUser <= akhirUser){
+//            hasilTotal = hasilTotal+awalUser;
+//            System.out.printf("bilangan ke =%d hasil totalnya adalah = %d\n",awalUser,hasilTotal);
+//            awalUser++;
+//        }
+        for(; awalUser <= akhirUser;awalUser++){
+            hasilTotal = hasilTotal +awalUser;
             System.out.printf("bilangan ke =%d hasil totalnya adalah = %d\n",awalUser,hasilTotal);
-            awalUser++;
         }
     }
 }
