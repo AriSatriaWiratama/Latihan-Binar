@@ -20,7 +20,7 @@ public class loopingBersarang {
 
         System.out.println();
 
-        for (int =)
+//        for (int =)
 
         System.out.println();
 
