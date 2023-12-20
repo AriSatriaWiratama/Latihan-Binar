@@ -25,10 +25,10 @@ public class arrayDasar {
 
         arrayData[3]=5;
 
-        System.out.println(arrayData[0]);
-        System.out.println(arrayData[1]);
-        System.out.println(arrayData[2]);
-        System.out.println(arrayData[3]);
+//        System.out.println(arrayData[0]);
+//        System.out.println(arrayData[1]);
+//        System.out.println(arrayData[2]);
+//        System.out.println(arrayData[3]);
 
         System.out.println(Arrays.toString(arrayData));
     }
