@@ -25,6 +25,8 @@ public class arrayReference {
 
         //masih terbawa angka array2 karena masih 1 alamat
         arrayAngka(arrayData1);
+        System.out.print("\n");
+        arrayAngka(arrayData2);
     }
 
         public static void arrayAngka(int[] angkaArray){
