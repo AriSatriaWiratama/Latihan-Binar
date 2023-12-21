@@ -7,10 +7,6 @@ public class arrayLooping {
     public static void main(String[] args){
         int[] arrayData = {10,11,12,13,14,15,16,17};
         //list
-        List<String> listString = new ArrayList<>();
-        listString.add("GG GAMING");
-
-        System.out.println(listString.get(0));
 
         System.out.println("panjang data array = "+ arrayData.length);
         System.out.println("Looping dengan properti");
