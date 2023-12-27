@@ -2,10 +2,15 @@ package oriented;
 
 public class Dosen {
     String nama;
+
+    String namaLama = "Rektor Gaming";
     String nim;
 
     String jurusan;
 
+    Dosen(){
+        System.out.println(namaLama);
+    }
     Dosen(String nama,String nim,String jurusan){
         this.nama=nama;
         this.nim=nim;
