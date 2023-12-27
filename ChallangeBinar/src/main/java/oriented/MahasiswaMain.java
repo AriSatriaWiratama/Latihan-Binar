@@ -14,6 +14,7 @@ public class MahasiswaMain {
         System.out.println(mahasiswa1.jurusan);
         System.out.println(mahasiswa1.umur);
 
+        Dosen DosenRektor = new Dosen();
         //membuat object dengan memasukan constructor didalam class
         Dosen dosen1 = new Dosen("Bagus Dwi","10101010","Teknik informatika");
 
