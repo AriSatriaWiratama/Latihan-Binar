@@ -29,14 +29,21 @@ public class Dosen {
     }
 
     // Method tanpa return dan dengan parameter
-    void setNama(String nama){
-        this.nama =nama;
+//    void setNama(String nama){
+//        this.nama =nama;
+//    }
+
+
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
     // Method dengan return dan tanpa parameter
     String getNama(){
         return this.nama;
     }
+
+
 
     String halo(String pesan){
         return pesan +"ini punya"+this.nama;
