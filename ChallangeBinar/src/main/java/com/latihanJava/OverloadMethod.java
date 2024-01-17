@@ -6,9 +6,14 @@ public class OverloadMethod {
         printAngka(10);
         printAngka(10.5f);
         printAngka(10.5d);
+        printAngka("GG GAMING");
     }
     public static void printAngka(int angka) {
         System.out.println("angkanya adalah " + angka);
+    }
+
+    public static void printAngka(String angka){
+        System.out.println("angkanyya adalah " + angka);
     }
 
     public static void printAngka(double angka) {
